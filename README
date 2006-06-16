@@ -1,0 +1,80 @@
+code-browser
+------------------------------------------
+Code Browser is a folding and outlining editor for Linux and Windows.
+The editor is between a traditional text editor, a smalltalk class
+browser and a web browser like mozilla. It displays a structured text
+file (marker-based folding) hierarchically using multiple panes.
+
+It is especially designed to keep a good overview of the code of large
+projects. Ideal if you are fed up of having to scroll through thousands
+of lines of code. It supports syntax highlighting for C, C++, C#,
+VB.Net, Java, Python, Ruby, Pascal, TeX, Makefile, XML, HTML and CSS.
+Custom syntax highlighting can also be added. 
+
+Runtime requirements:
+  cygwin-1.5.20-1
+  gtk2-x11-2.8.17-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.20-1
+  binutils-20050610-1
+  cygport-0.2.2-1
+  gcc-core-3.4.4-1
+  make-3.80-1
+  pkg-config-0.20-1
+
+Canonical website:
+  http://code-browser.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/code-browser/
+
+-------------------------------------------
+
+Build instructions:
+  unpack code-browser-2.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./code-browser-2.6-X.cygport all
+
+This will create:
+  /usr/src/code-browser-2.6-X-src.tar.bz2
+  /usr/src/code-browser-2.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/code-browser.exe
+  /usr/share/applications/code-browser.desktop
+  /usr/share/code-browser/languages.cb-config
+  /usr/share/code-browser/preferences.cb-config
+  /usr/share/doc/Cygwin/code-browser-2.6.README
+  /usr/share/doc/code-browser-2.6/COPYING
+  /usr/share/doc/code-browser-2.6/README
+  /usr/share/doc/code-browser-2.6/html/code-browser.chm
+  /usr/share/doc/code-browser-2.6/html/doc.css
+  /usr/share/doc/code-browser-2.6/html/doc.html
+  /usr/share/pixmaps/code-browser.xpm
+
+------------------
+
+Port Notes:
+
+----- version 2.7-1 -----
+Version bump.
+
+----- version 2.6-1 -----
+Version bump.
+
+----- version 2.5-1 -----
+Version bump.
+
+----- version 2.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

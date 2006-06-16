@@ -1,0 +1,13 @@
+category: Gnome Editors
+requires: cygwin gtk2-x11
+sdesc: "Folding and outlining text/source editor"
+ldesc: "Code Browser is a folding and outlining editor for Linux and Windows.
+The editor is between a traditional text editor, a smalltalk class
+browser and a web browser like mozilla. It displays a structured text
+file (marker-based folding) hierarchically using multiple panes.
+
+It is especially designed to keep a good overview of the code of large
+projects. Ideal if you are fed up of having to scroll through thousands
+of lines of code. It supports syntax highlighting for C, C++, C#,
+VB.Net, Java, Python, Ruby, Pascal, TeX, Makefile, XML, HTML and CSS.
+Custom syntax highlighting can also be added."
