@@ -13,7 +13,7 @@ Custom syntax highlighting can also be added.
 
 Runtime requirements:
   cygwin-1.5.20-1
-  gtk2-x11-2.8.17-1
+  gtk2-x11-2.8.19-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -33,15 +33,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack code-browser-2.6-X-src.tar.bz2
+  unpack code-browser-2.8-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./code-browser-2.6-X.cygport all
+  cygport ./code-browser-2.8-X.cygport all
 
 This will create:
-  /usr/src/code-browser-2.6-X-src.tar.bz2
-  /usr/src/code-browser-2.6-X.tar.bz2
+  /usr/src/code-browser-2.8-X-src.tar.bz2
+  /usr/src/code-browser-2.8-X.tar.bz2
 
 -------------------------------------------
 
@@ -51,17 +51,20 @@ Files included in the binary package:
   /usr/share/applications/code-browser.desktop
   /usr/share/code-browser/languages.cb-config
   /usr/share/code-browser/preferences.cb-config
-  /usr/share/doc/Cygwin/code-browser-2.6.README
-  /usr/share/doc/code-browser-2.6/COPYING
-  /usr/share/doc/code-browser-2.6/README
-  /usr/share/doc/code-browser-2.6/html/code-browser.chm
-  /usr/share/doc/code-browser-2.6/html/doc.css
-  /usr/share/doc/code-browser-2.6/html/doc.html
+  /usr/share/doc/Cygwin/code-browser-2.8.README
+  /usr/share/doc/code-browser-2.8/COPYING
+  /usr/share/doc/code-browser-2.8/README
+  /usr/share/doc/code-browser-2.8/html/code-browser.chm
+  /usr/share/doc/code-browser-2.8/html/doc.css
+  /usr/share/doc/code-browser-2.8/html/doc.html
   /usr/share/pixmaps/code-browser.xpm
 
 ------------------
 
 Port Notes:
+
+----- version 2.8-1 -----
+Version bump.
 
 ----- version 2.7-1 -----
 Version bump.
