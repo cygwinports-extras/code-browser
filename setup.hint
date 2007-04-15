@@ -1,5 +1,5 @@
 category: Gnome Editors
-requires: cygwin gtk2-x11
+requires: cygwin glib2 gtk2-x11 pango
 sdesc: "Folding and outlining text/source editor"
 ldesc: "Code Browser is a folding and outlining editor for Linux and Windows.
 The editor is between a traditional text editor, a smalltalk class

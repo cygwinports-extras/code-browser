@@ -13,13 +13,15 @@ Custom syntax highlighting can also be added.
 
 Runtime requirements:
   cygwin-1.5.24-2
+  glib2-2.10.9-1
   gtk2-x11-2.10.9-1
+  pango-1.14.10-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   binutils-20060817-1
-  cygport-0.2.9-1
+  cygport-0.2.11-1
   gcc-core-3.4.4-3
   make-3.81-1
   pkg-config-0.21-1
@@ -33,15 +35,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack code-browser-2.12-X-src.tar.bz2
+  unpack code-browser-2.13-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./code-browser-2.12-X.cygport all
+  cygport ./code-browser-2.13-X.cygport all
 
 This will create:
-  /usr/src/code-browser-2.12-X-src.tar.bz2
-  /usr/src/code-browser-2.12-X.tar.bz2
+  /usr/src/code-browser-2.13-X-src.tar.bz2
+  /usr/src/code-browser-2.13-X.tar.bz2
 
 -------------------------------------------
 
@@ -51,18 +53,22 @@ Files included in the binary package:
   /usr/share/applications/code-browser.desktop
   /usr/share/code-browser/config-default/preferences.cbc
   /usr/share/code-browser/config-optional/perforce.cbc
+  /usr/share/code-browser/config-optional/torque.cbc
   /usr/share/code-browser/config/preferences.cbc
-  /usr/share/doc/Cygwin/code-browser-2.12.README
-  /usr/share/doc/code-browser-2.12/COPYING.txt
-  /usr/share/doc/code-browser-2.12/README.txt
-  /usr/share/doc/code-browser-2.12/html/code-browser.chm
-  /usr/share/doc/code-browser-2.12/html/doc.css
-  /usr/share/doc/code-browser-2.12/html/doc.html
+  /usr/share/doc/Cygwin/code-browser-2.13.README
+  /usr/share/doc/code-browser-2.13/COPYING.txt
+  /usr/share/doc/code-browser-2.13/README.txt
+  /usr/share/doc/code-browser-2.13/html/code-browser.chm
+  /usr/share/doc/code-browser-2.13/html/doc.css
+  /usr/share/doc/code-browser-2.13/html/doc.html
   /usr/share/pixmaps/code-browser.xpm
 
 ------------------
 
 Port Notes:
+
+----- version 2.13-1 -----
+Version bump.
 
 ----- version 2.12-1 -----
 Version bump.
