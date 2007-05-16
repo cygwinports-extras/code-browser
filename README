@@ -13,9 +13,9 @@ Custom syntax highlighting can also be added.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  glib2-2.10.9-1
-  gtk2-x11-2.10.9-1
-  pango-1.14.10-1
+  glib2-2.12.12-1
+  gtk2-x11-2.10.11-1
+  pango-1.16.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -35,15 +35,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack code-browser-2.13-X-src.tar.bz2
+  unpack code-browser-2.14-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./code-browser-2.13-X.cygport all
+  cygport ./code-browser-2.14-X.cygport all
 
 This will create:
-  /usr/src/code-browser-2.13-X-src.tar.bz2
-  /usr/src/code-browser-2.13-X.tar.bz2
+  /usr/src/code-browser-2.14-X-src.tar.bz2
+  /usr/src/code-browser-2.14-X.tar.bz2
 
 -------------------------------------------
 
@@ -55,17 +55,20 @@ Files included in the binary package:
   /usr/share/code-browser/config-optional/perforce.cbc
   /usr/share/code-browser/config-optional/torque.cbc
   /usr/share/code-browser/config/preferences.cbc
-  /usr/share/doc/Cygwin/code-browser-2.13.README
-  /usr/share/doc/code-browser-2.13/COPYING.txt
-  /usr/share/doc/code-browser-2.13/README.txt
-  /usr/share/doc/code-browser-2.13/html/code-browser.chm
-  /usr/share/doc/code-browser-2.13/html/doc.css
-  /usr/share/doc/code-browser-2.13/html/doc.html
+  /usr/share/doc/Cygwin/code-browser-2.14.README
+  /usr/share/doc/code-browser-2.14/COPYING.txt
+  /usr/share/doc/code-browser-2.14/README.txt
+  /usr/share/doc/code-browser-2.14/html/code-browser.chm
+  /usr/share/doc/code-browser-2.14/html/doc.css
+  /usr/share/doc/code-browser-2.14/html/doc.html
   /usr/share/pixmaps/code-browser.xpm
 
 ------------------
 
 Port Notes:
+
+----- version 2.14-1 -----
+Version bump.
 
 ----- version 2.13-1 -----
 Version bump.

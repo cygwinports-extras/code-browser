@@ -1,0 +1,26 @@
+DESCRIPTION="Folding and outlining text/source editor"
+HOMEPAGE="http://code-browser.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}-src.tar.gz"
+
+MAKEOPTS+=" -j1"
+USE_DESTDIR=0
+
+src_compile() {
+	cd ${B}
+	lndirs
+	cygmake prefix=/usr
+}
+
+src_test() { :; }
+
+src_install() {
+	cd ${B}
+	dodir /usr/bin
+	cyginstall CONFIGDIR=${D}/usr/share/${PN}
+
+	newicon ${S}/res/code_browser_32.h ${PN}.xpm
+	make_desktop_entry ${PN} "Code Browser" ${PN}.xpm "Development;TextEditor"
+
+	docinto html
+	dodoc ${S}/docs/*
+}
